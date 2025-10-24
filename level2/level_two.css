@@ -1,5 +1,24 @@
 .months-container {
+grid-template-columns:4 1fr ;
+grid-template-rows:3 1fr ;
+grid-template-areas: 
+"january february march april"
+"may june july august"
+"september october november december";
 }
 
+
 .days-container {
+    grid-template-columns:4 1fr;
+    grid-template-rows:7 1fr;
+    grid-template-areas: 
+    "monday tuesday wensday thursday friday saturday sunday"
+    "one two three four five six seven"
+    "eight nine ten eleven twelve thirteen fourteen"
+    "fifthteen sixteen seventeen eighteen nineteen twenty twentyone"
+    "twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight";
+}
+.jan{
+    grid-area:  january;
+    
 }
